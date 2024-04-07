@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Pokemones</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body id="container">
+    <h1>Consultar Datos De Pokemones</h1>
+
+    <input type="text" name="input_poke" id="input_poke">
+    <button id="Button_search" onclick="obtenerValorInput()">Buscar</button>
+
+    <div id="pokemon-information">
+        <h3>Informacion Del Pokemon</h3>
+        <div id="show-info"></div>
+    </div>
+    
+</body>
+</html>
